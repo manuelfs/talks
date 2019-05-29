@@ -18,7 +18,7 @@ deploy:
     api_key:
         secure: uu2K6r8eYvJP+wzIZ6I+VrcGzTqDOW6E3TdQVvkj7GhBgdHmgkNAysBFdkPlVqa88eiRU+ij/BluWyHwPCJnYpMeKSiG/eZ2pY7vbYAmyCcmRCbeIO0mT3WGnQmIAzd1m+eW5BgAsW9csjeCwI6II3KIPWSC/bCOQQOQNmgsyGRO9J5+KrW60j3PG2olL9wN+lGdXEQVIEuf98qfpfqf3gR5GU3hkuQrownMnhk33zh4FxH5sF7Nv9MAZk5XBbBP8kozTxS9gPzzZEkdZMB61xLDXzuwLH+JLrK2omWfE+8DgJhswvsE96fU3jM38z/FByOnIzYORjGKNn8yOYzoRtuTBwYToxbVhi4nnbCWvQ//5q4TvstjtelQIhHD2KTrR5aGetDowiWtWqCoGUcM0eLqBQyDJ/BK68x3tX6PDZ5UQsUO58bohwULK60r6fspqwJSnH4icI0CFbI3dNyLLmg9pBvs/Xfp28gBnvOzhYnYt8a19ssVJRUGKPj2vCHckpjVgdfiWO0hARVun9bxYEQiFQm1PX9sqQuqglGfQ+F/lzEW9hRc+6NFwH6J4N0RW6ZZyfnmDpDp5gbVfqJ4EX/V2VOypNUl0FDYUkOFbntzomRXkWDlE6y3ucet1jAi51gPnAJ8Y3DjAUTk41hqrOHfUP4H/+1BqPDX7JAujz4=
     file:
-        - "./20190530/20190530.pdf"
+        - "./190530/190530.pdf"
     skip_cleanup: true
     on:
         tags: true
