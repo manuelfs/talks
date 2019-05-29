@@ -6,12 +6,12 @@ notifications:
     email: false
 
 script:
-    - docker pull pandoc/latex
+    - docker pull yipengsun/pandoc-latex:edge
     - |
       docker run \
       --volume "`pwd`:/data" \
       --entrypoint ./gen.sh \
-      pandoc/latex
+      yipengsun/pandoc-latex:edge
 
 deploy:
     provider: releases
