@@ -1,5 +1,7 @@
 #!/bin/sh
 
 for f in **/*.md; do
-    pandoc "$f" -t beamer -o "${f%.md}.pdf"
+    cd $(dirname $f)
+    pandoc "$(basename $f)" -t beamer -o "$(basename ${f%.md}.pdf)"
+    cd ..
 done
